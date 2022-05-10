@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        body{
+            background-image: url("imges/White_Abstract_5241852.jpg");
+            margin: 0;
+            padding: 0;
+        }
+        .main-container{
+            display: flex;
+            flex-direction: column;
+        }
+        .d1{
+            
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            letter-spacing: 20px;
+            background-color: rgb(163, 248, 237);
+            opacity: 0.5;
+        }
+        .d2{
+            background-color: rgb(5, 125, 129);
+            width: 100%;
+            height: 350px;
+            opacity: 0.5;
+        }
+        .d3{
+            /* background-color: rgb(22, 172, 172); */
+            /* background: linear-gradient(40deg , white,rgb(137, 215, 221),rgb(18, 123, 155),white); */
+            width: 50%;
+            height: 500px;
+            position: relative; 
+            margin-top: -50%;
+            box-shadow: 0 0 20px black;
+            border-radius: 30px;
+        
+
+        }
+        .center-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img{
+            width: 60%;
+            height: 398PX;
+            /* border: 2px solid black; */
+            margin-left: 20%;
+            margin-top: 8%;
+            box-shadow: 0 0 10px rgb(14, 13, 13);
+        }
+        .desc2{
+            margin-top: 23%;
+            margin-left: 20%;
+            color: black;
+            font-weight: 800;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="d1"><h1>Krishna</h1> </div>
+        <div class="d2"><div class="desc2"><h1 >God is supreme power and this world is governed by him</h1></div></div>
+        
+    </div>
+    <div class="center-div">
+        <div class="d3">
+            <img class="img" src="./imges/showcase-designify.png" alt="">
+        </div>
+    </div>
+
+</body>
+</html>
